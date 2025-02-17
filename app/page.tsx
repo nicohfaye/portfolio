@@ -11,21 +11,21 @@ export default function Home() {
       />
       <div className="flex flex-col w-full h-full items-center justify-center">
         <div className="w-1/2 justify-center items-center ">
-          <h1 className="font-bold text-8xl text-test mt-14 selection:bg-test-foreground">
+          <h1 className="font-bold text-4xl md:text-6xl xl:text-8xl text-test mt-8 md:mt-14 selection:bg-test-foreground">
             Nicolai H<span className="text-test">.</span> Faye
           </h1>
-          <h2 className="font-medium text-4xl text-test mt-2 ml-1 selection:bg-test-foreground">
+          <h2 className="font-medium text-xl/5 xl:text-4xl text-test mt-2 ml-1 selection:bg-test-foreground">
             Full-stack Developer & UI/UX Designer
           </h2>
         </div>
-        <div className="w-1/2 justify-center items-center ">
-          <h3 className="font-medium text-4xl ml-1 mt-12 text-test-foreground mr-16 selection:bg-test">
+        <div className="hidden md:flex w-1/2 justify-start items-center">
+          <h3 className="font-medium text-2xl xl:text-4xl ml-1 mt-8 text-test-foreground mr-16 selection:bg-test">
             Developing sleek, modern and responsive websites.
           </h3>
         </div>
-        <div className="flex flex-col lg:flex-row w-1/2 items-start mt-6 space-x-8">
-          <div className="w-1/3">
-            <p className="font-medium text-lg/6 text-test-foreground selection:bg-test">
+        <div className="flex flex-col justify-center lg:justify-start lg:flex-row w-1/2 items-start mt-4 gap-y-8 md:gap-y-6 lg:space-x-8 pl-1">
+          <div className="w-5/6 lg:w-1/3 ">
+            <p className="font-medium text-sm/4 md:text-lg/5 text-test-foreground selection:bg-test">
               Hey I&apos;m <span>Nico</span>, a 23 year old Norwegian developer
               and UI/UX designer. I love to create, and I love technology.
               I&apos;m currently studying my 4th year of{" "}
@@ -35,8 +35,8 @@ export default function Home() {
               at NTNU Trondheim.
             </p>
           </div>
-          <div className="w-1/3">
-            <p className="font-medium text-lg/6 text-test-foreground selection:bg-test">
+          <div className="w-5/6 lg:w-1/3 ">
+            <p className="font-medium text-sm/4 md:text-lg/5 text-test-foreground selection:bg-test">
               With a passion for creating, I also love to make electronic music
               under my alias{" "}
               <span className="text-test-foreground bg-test">Coasting.</span> I
