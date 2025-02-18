@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { AudioLines } from "lucide-react";
+// import { AudioLines } from "lucide-react";
 import { motion } from "framer-motion";
 
 const paths = ["M7 20v-12", "M3 12v-2", "M19 18v-8", "M11 22v-16", "M15 16v-4"];
