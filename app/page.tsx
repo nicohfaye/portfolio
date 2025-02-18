@@ -1,3 +1,6 @@
+"use client";
+
+import AnimateNum from "@/components/addons/animate-num";
 import Image from "next/image";
 
 export default function Home() {
@@ -44,6 +47,11 @@ export default function Home() {
               Spotify. <span className="underline">Listen here</span>
             </p>
           </div>
+        </div>
+        <div className="flex flex-col md:flex-row w-3/5 justify-start mt-28 gap-x-14 pl-[92px]">
+          <AnimateNum target={4} duration={1} text="Years of experience" />
+          <AnimateNum target={12} duration={1} text="Successful Projects" />
+          <AnimateNum target={39} duration={1} text="Satisfied customers" />
         </div>
       </div>
     </>
